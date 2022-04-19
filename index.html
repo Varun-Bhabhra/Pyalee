@@ -30,7 +30,7 @@
 
     <!-- NAVBAR -->
     <nav
-        class="fixed w-full z-10 bg-light px-4 md:px-16 py-4 md:py-6 space-y-6 md:space-y-0 md:flex items-center justify-between shadow-md">
+        class="fixed w-full z-40 bg-light px-4 md:px-16 py-4 md:py-6 space-y-6 md:space-y-0 md:flex items-center justify-between shadow-md">
         <aside class="md:w-auto flex justify-between">
             <a href="./index.html"><img src="./img/pyalee_logo.png" alt="logo" class="w-40 lg:w-52"></a>
             <i id="bars" class="fa-solid fa-bars my-auto text-2xl"></i>
@@ -75,27 +75,140 @@
     <main class="">
         <!-- Landing Page -->
         <section id="home" class="bg-primary pt-44 pb-24 px-6">
-            <article class="max-w-screen-2xl mx-auto space-y-12 lg:flex justify-evenly items-center">
-                <div class="space-y-24">
-                    <h1 class="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold uppercase">india's no. 1 <br>
-                        tea cup
-                    </h1>
-                    <a href="#" class="hidden lg:block">
-                        <button
-                            class="bg-secondary text-primary text-2xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
-                            Now</button>
-                    </a>
+            <div id="controls-carousel" class="relative" data-carousel="slide">
+
+                <!-- Carousel wrapper -->
+                <div class="overflow-hidden relative h-[32rem] rounded-lg sm:h-64 xl:h-[28rem]">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <article class="max-w-screen-2xl mx-auto space-y-12 lg:flex justify-evenly items-center">
+                            <div class="space-y-24">
+                                <h1 class="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold uppercase">
+                                    india's no. 1 <br>
+                                    tea cup
+                                </h1>
+                                <a href="#" class="hidden lg:block">
+                                    <button
+                                        class="bg-secondary text-primary text-2xl font-medium w-3/6 px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">
+                                        Shop Now
+                                    </button>
+                                </a>
+                            </div>
+
+                            <img src="./img/pyalee_cup.png" alt="A Cup" width="666" height="375"
+                                class="pb-12 drop-shadow-2xl  hover:scale-125 hover:rotate-6 transition-all">
+
+                            <a href="#" class="lg:hidden">
+                                <button
+                                    class="bg-secondary text-primary text-xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
+                                    Now</button>
+                            </a>
+                        </article>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                        <article class="max-w-screen-2xl mx-auto space-y-12 lg:flex justify-evenly items-center">
+                            <div class="space-y-24">
+                                <h1 class="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold uppercase">
+                                    india's no. 1 <br>
+                                    tea bag
+                                </h1>
+                                <a href="#" class="hidden lg:block">
+                                    <button
+                                        class="bg-secondary text-primary text-2xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
+                                        Now</button>
+                                </a>
+                            </div>
+
+                            <img src="./img/tea_bag.png" alt="A Cup" width="666" height="375"
+                                class="pb-12 drop-shadow-2xl  hover:scale-125 hover:rotate-6 transition-all">
+
+                            <a href="#" class="lg:hidden">
+                                <button
+                                    class="bg-secondary text-primary text-xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
+                                    Now</button>
+                            </a>
+                        </article>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <article class="max-w-screen-2xl mx-auto space-y-12 lg:flex justify-evenly items-center">
+                            <div class="space-y-24">
+                                <h1 class="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold uppercase">
+                                    india's no. 1 <br>
+                                    tea cup
+                                </h1>
+                                <a href="#" class="hidden lg:block">
+                                    <button
+                                        class="bg-secondary text-primary text-2xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
+                                        Now</button>
+                                </a>
+                            </div>
+
+                            <img src="./img/pyalee_cup.png" alt="A Cup" width="666" height="375"
+                                class="pb-12 drop-shadow-2xl  hover:scale-125 hover:rotate-6 transition-all">
+
+                            <a href="#" class="lg:hidden">
+                                <button
+                                    class="bg-secondary text-primary text-xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
+                                    Now</button>
+                            </a>
+                        </article>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <article class="max-w-screen-2xl mx-auto space-y-12 lg:flex justify-evenly items-center">
+                            <div class="space-y-24">
+                                <h1 class="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold uppercase">
+                                    india's no. 1 <br>
+                                    tea bag
+                                </h1>
+                                <a href="#" class="hidden lg:block">
+                                    <button
+                                        class="bg-secondary text-primary text-2xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
+                                        Now</button>
+                                </a>
+                            </div>
+
+                            <img src="./img/tea_bag.png" alt="A Cup" width="666" height="375"
+                                class="pb-12 drop-shadow-2xl  hover:scale-125 hover:rotate-6 transition-all">
+
+                            <a href="#" class="lg:hidden">
+                                <button
+                                    class="bg-secondary text-primary text-xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
+                                    Now</button>
+                            </a>
+                        </article>
+                    </div>
                 </div>
-
-                <img src="./img/pyalee_cup.png" alt="A Cup" width="666" height="375"
-                    class="pb-12 drop-shadow-2xl hover:scale-125 hover:rotate-6 transition-all">
-
-                <a href="#" class="lg:hidden">
-                    <button
-                        class="bg-secondary text-primary text-xl font-medium w-full px-10 py-4 shadow-md rounded-lg hover:underline underline-offset-4 hover:scale-105 transition-all">Shop
-                        Now</button>
-                </a>
-            </article>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-6 h-6 text-white dark:text-gray-800" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                            </path>
+                        </svg>
+                        <span class="hidden">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-6 h-6 text-white dark:text-gray-800" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                        <span class="hidden">Next</span>
+                    </span>
+                </button>
+            </div>
         </section>
 
         <!-- About Us -->
@@ -123,9 +236,9 @@
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase">Our Products</h1>
 
                 <article class="pt-32 space-y-12 md:space-y-0 md:flex justify-evenly">
-                    <div class="rounded-xl bg-secondary">
+                    <div class="w-5/6 mx-auto md:w-2/6 rounded-xl bg-secondary hover:scale-105 transition-all">
                         <img src="./img/pyalee_cup.png" alt="A Cup"
-                            class="py-12 bg-primary border border-secondary rounded-t-xl">
+                            class="py-12 bg-gradient-to-t from-primary to-secondary border border-secondary rounded-t-xl">
                         <div class=" py-10 space-y-12">
                             <h1 class="text-primary font-bold text-4xl">Tea Cup</h1>
                             <a href="#" class="inline-block">
@@ -135,9 +248,9 @@
                         </div>
                     </div>
 
-                    <div class="rounded-xl bg-secondary">
-                        <img src="./img/pyalee_cup.png" alt="A tea bag"
-                            class="py-12 bg-primary border border-secondary rounded-t-xl">
+                    <div class="w-5/6 mx-auto md:w-2/6 rounded-xl bg-secondary hover:scale-105 transition-all">
+                        <img src="./img/tea_bag.png" alt="A tea bag"
+                            class="py-12  bg-gradient-to-t from-primary to-secondary border border-secondary rounded-t-xl">
                         <div class=" py-10 space-y-12">
                             <h1 class="text-primary font-bold text-4xl">Tea Bag</h1>
                             <a href="#" class="inline-block">
