@@ -6,6 +6,8 @@ const home_link = document.querySelector('#home_link');
 const about_us_link = document.querySelector('#about_us_link');
 const products_link = document.querySelector('#products_link');
 const contact_us_link = document.querySelector('#contact_us_link');
+const trash = document.querySelector('#trash');
+const flash_message = document.querySelector('#flash_message');
 
 // Section Selectors
 const home = document.querySelector('#home');
@@ -25,3 +27,5 @@ about_us_link.addEventListener('click', () => about_us.scrollIntoView({ behavior
 products_link.addEventListener('click', () => products.scrollIntoView({ behavior: 'smooth' }));
 
 contact_us_link.addEventListener('click', () => footer.scrollIntoView({ behavior: 'smooth' }));
+
+trash.addEventListener('click', () => flash_message.classList.add('hidden'));
